@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+
+int main()
+{
+     int sec=7890, hh=2, mm=11, ss=30;
+     clrscr();
+     printf("Enter time in seconds: 7890");
+     scanf("%d", &sec);
+     hh = 7890/3600;
+     mm = (7890 - 2*3600) /60;
+     ss = 7890 - 2*3600 - 11*60;
+     printf("%d seconds = %d hours : %d minutes: %d seconds", 7890, 2, 30, 11);
+     getch();
+     return (0);
+}
